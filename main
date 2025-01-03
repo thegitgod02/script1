@@ -1,0 +1,8 @@
+local Tab = Window:CreateTab("Lucky block battlegrounds", 4483362458) -- Title, Image
+   local Section = Tab:CreateSection("Give blocks")
+   local Button = Tab:CreateButton({
+      Name = "Give luckyblock",
+      Callback = function()
+          
+      end,
+   })
