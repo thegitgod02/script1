@@ -79,8 +79,6 @@ local Tab = Window:CreateTab("Universal", 4483362458)
           loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/main/anti-afk", true))()
        end,
     })
-if game.PlaceId == 155615604 then
-    
     local Tab = Window:CreateTab("Prison Life", 1)
     local Section = Tab:CreateSection("Main")
     local PrisonLifeButton = Tab:CreateButton({
