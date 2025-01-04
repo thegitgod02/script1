@@ -1,3 +1,5 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
 local Tab = Window:CreateTab("Universal", 4483362458)
     local Section = Tab:CreateSection("Walkspeed")
     local WalkSpeedSlider = Tab:CreateSlider({
