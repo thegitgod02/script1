@@ -79,6 +79,8 @@ local Tab = Window:CreateTab("Universal", 4483362458)
           loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/main/anti-afk", true))()
        end,
     })
+end
+ local Tab = Window:CreateTab("Prison Life", 1)
     local Section = Tab:CreateSection("Main")
     local PrisonLifeButton = Tab:CreateButton({
        Name = "PrizzLife v08.1",
@@ -89,10 +91,3 @@ local Tab = Window:CreateTab("Universal", 4483362458)
     local Section = Tab:CreateSection("More coming soon")
     local Divider = Tab:CreateDivider()
     Divider:Set(true)
-    local UniversalLifeButton = Tab:CreateButton({
-      Name = "Load universal",
-      Callback = function()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/thegitgod02/script1/refs/heads/main/loaduniversal'))()
-      end,
-   })
-    end
