@@ -1,4 +1,4 @@
-## _This is Mennyhou a less popular roblox script that i work on just for fun_
+## _This is Mennyhou crappy roblox script that i work on just for fun_
 
 Script:
 ~~~lua
