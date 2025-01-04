@@ -99,18 +99,3 @@ if game.PlaceId == 155615604 then
       end,
    })
     end
-    if game.PlaceId == 142823291 then
-    
-    local Tab = Window:CreateTab("Murder Mystery 2", 1)
-    local Section = Tab:CreateSection("Main")
-    local MM2Button = Tab:CreateButton({
-       Name = "XHUBMM2",
-       Callback = function()
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
-       end,
-    })
-    
-    local Section = Tab:CreateSection("More coming soon")
-    local Divider = Tab:CreateDivider()
-    Divider:Set(true)
-end
