@@ -1,4 +1,4 @@
-## _This is Mennyhou crappy roblox script that i work on just for fun_
+## _Stop peeking through my code_
 
 Script:
 ~~~lua
