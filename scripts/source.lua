@@ -60,6 +60,43 @@ local RayfieldLibrary = {
 			InputStroke = Color3.fromRGB(65, 65, 65),
 			PlaceholderColor = Color3.fromRGB(178, 178, 178)
 		},
+		Mennyhou = {
+			TextFont = "FredokaOne"
+			TextColor = Color3.fromRGB(0, 0, 0),
+			Background = Color3.fromRGB(252, 140, 3),
+			Topbar = Color3.fromRGB(255, 175, 77),
+			Shadow = Color3.fromRGB(223, 223, 223),
+			NotificationBackground = Color3.fromRGB(252, 140, 3),
+			NotificationActionsBackground = Color3.fromRGB(255, 175, 25),
+			TabBackground = Color3.fromRGB(255, 215, 25),
+			TabStroke = Color3.fromRGB(112, 112, 112),
+			TabBackgroundSelected(255, 215, 25),
+			TabTextColor = Color3.fromRGB(255, 215, 25),
+			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
+			ElementBackground = Color3.fromRGB(198, 198, 198)
+			ElementBackgroundHover = Color3.fromRGB(230, 230, 230),
+			SecondaryElementBackground = Color3.fromRGB(136, 136, 136), -- For labels and paragraphs
+			ElementStroke = Color3.fromRGB(180, 199, 97),
+			SecondaryElementStroke = Color3.fromRGB(40, 40, 40), -- For labels and paragraphs
+
+			SliderBackground = Color3.fromRGB(31, 159, 71),
+			SliderProgress = Color3.fromRGB(31, 159, 71),
+			SliderStroke = Color3.fromRGB(42, 216, 94),
+
+			ToggleBackground = Color3.fromRGB(170, 203, 60),
+			ToggleEnabled = Color3.fromRGB(32, 214, 29),
+			ToggleDisabled = Color3.fromRGB(100, 22, 23),
+			ToggleEnabledStroke = Color3.fromRGB(17, 255, 0),
+			ToggleDisabledStroke = Color3.fromRGB(65, 8, 8),
+			ToggleEnabledOuterStroke = Color3.fromRGB(0, 170, 0),
+			ToggleDisabledOuterStroke = Color3.fromRGB(170, 0, 0),
+
+			InputBackground = Color3.fromRGB(31, 159, 71),
+			InputStroke = Color3.fromRGB(19, 65, 31),
+			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+		}
+	}
+}
 		Light = {
 			TextFont = "Gotham", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(50, 50, 50), -- i need to make all text 240, 240, 240 and base gray on transparency not color to do this
